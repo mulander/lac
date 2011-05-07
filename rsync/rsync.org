@@ -1,7 +1,10 @@
 * Misc
-- Probably two modes of operation
+- Probably several modes of operation
   - Daemon (TCP 873)
+    - Writable
+    - Readonly?
   - Client
+  - xattr-enabled (Extended file attributes)
 - Protocols
   - native rsync
   - RSH
