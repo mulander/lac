@@ -7,3 +7,4 @@
 * Links
 - [[http://rsync.samba.org/][Project homepage]]
 - [[http://en.wikipedia.org/wiki/Rsync][Wikipedia entry]]
+- [[http://rsync.samba.org/tech_report/][The rsync algorithm]]
