@@ -9,6 +9,7 @@
 - Replaces
   - rcp
   - scp
+
 * Features
 - Synchronization of files and directories
 - Delta encoding to minimize data transfer
@@ -19,4 +20,7 @@
 * Links
 - [[http://rsync.samba.org/][Project homepage]]
 - [[http://en.wikipedia.org/wiki/Rsync][Wikipedia entry]]
-- [[http://rsync.samba.org/tech_report/][The rsync algorithm]]
+- [[http://rsync.samba.org/tech_report/][The rsync algorithm]
+
+* See also
+- [[http://librsync.sourceforge.net/][librsync]] - possibly a different implementation of the rsync algorithm
