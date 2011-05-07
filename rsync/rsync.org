@@ -1,3 +1,14 @@
+* Misc
+- Probably two modes of operation
+  - Daemon (TCP 873)
+  - Client
+- Protocols
+  - native rsync
+  - RSH
+  - SSH
+- Replaces
+  - rcp
+  - scp
 * Features
 - Synchronization of files and directories
 - Delta encoding to minimize data transfer
