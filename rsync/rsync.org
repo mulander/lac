@@ -29,6 +29,7 @@ requires no special privileges to install
 - [[http://rsync.samba.org/][Project homepage]]
 - [[http://en.wikipedia.org/wiki/Rsync][Wikipedia entry]]
 - [[http://rsync.samba.org/tech_report/][The rsync algorithm]]
+- [[http://sunsite.auc.dk/SunSITE/rsync/rsync-mirroring.html][Anonymous rsync]]
 
 * See also
 - [[http://librsync.sourceforge.net/][librsync]] - possibly a different implementation of the rsync algorithm
