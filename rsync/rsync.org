@@ -14,6 +14,7 @@
 - Delta encoding to minimize data transfer
 - Only one trasmission in each direction while mirroring
 - Supports compression and recursion
+- Scriptable
 
 * Links
 - [[http://rsync.samba.org/][Project homepage]]
