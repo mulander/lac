@@ -25,6 +25,13 @@ requires no special privileges to install
 - Internal pipelining reduces latency for multiple files
 - Can use rsh, ssh or direct sockets as the transport
 - Supports anonymous rsync which is ideal for mirroring
+
+* Metrics (by ohloh.net)
+- Mostly written in C (~38k LoC)
+- Mature, well-established codebase
+- Small development team
+- Decreasing year-over-year development activity
+
 * Links
 - [[http://rsync.samba.org/][Project homepage]]
 - [[http://en.wikipedia.org/wiki/Rsync][Wikipedia entry]]
