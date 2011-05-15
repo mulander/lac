@@ -12,6 +12,11 @@
      case.
 *** `make'
 *** copy rsync to system $PATH or `make install'
+** Dependencies
+*** popt option-parsing library (rsync >= 2.4.7)
+    - Note taken on [2011-05-15 N 15:32] \\
+      A recent copy is included in the rsync code base and used if the system doesn't have it installed.
+      Using the bundled lib is possible by passing the --with-included-popt option passed to `./configure'.
 * Misc
 - Probably several modes of operation
   - Daemon (TCP 873)
