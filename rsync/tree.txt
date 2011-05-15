@@ -1,0 +1,223 @@
+.
+|-- COPYING
+|-- Doxyfile
+|-- INSTALL
+|-- Makefile.in
+|-- NEWS
+|-- OLDNEWS
+|-- README
+|-- TODO
+|-- access.c
+|-- aclocal.m4
+|-- acls.c
+|-- authenticate.c
+|-- backup.c
+|-- batch.c
+|-- byteorder.h
+|-- case_N.h
+|-- checksum.c
+|-- chmod.c
+|-- cleanup.c
+|-- clientname.c
+|-- clientserver.c
+|-- compat.c
+|-- config.guess
+|-- config.sub
+|-- configure
+|-- configure.ac
+|-- connection.c
+|-- csprotocol.txt
+|-- delete.c
+|-- doc
+|   |-- README-SGML
+|   |-- profile.txt
+|   `-- rsync.sgml
+|-- errcode.h
+|-- exclude.c
+|-- fileio.c
+|-- flist.c
+|-- generator.c
+|-- getfsdev.c
+|-- getgroups.c
+|-- hashtable.c
+|-- hlink.c
+|-- ifuncs.h
+|-- install-sh
+|-- inums.h
+|-- io.c
+|-- io.h
+|-- itypes.h
+|-- lib
+|   |-- addrinfo.h
+|   |-- compat.c
+|   |-- dummy.in
+|   |-- getaddrinfo.c
+|   |-- inet_ntop.c
+|   |-- inet_pton.c
+|   |-- md5.c
+|   |-- mdfour.c
+|   |-- mdigest.h
+|   |-- permstring.c
+|   |-- permstring.h
+|   |-- pool_alloc.3
+|   |-- pool_alloc.c
+|   |-- pool_alloc.h
+|   |-- snprintf.c
+|   |-- sysacls.c
+|   |-- sysacls.h
+|   |-- sysxattrs.c
+|   |-- sysxattrs.h
+|   |-- wildmatch.c
+|   `-- wildmatch.h
+|-- loadparm.c
+|-- log.c
+|-- main.c
+|-- match.c
+|-- mkproto.pl
+|-- options.c
+|-- packaging
+|   |-- bin
+|   |   `-- gpg
+|   |-- branch-from-patch
+|   |-- cull_options
+|   |-- git-status.pl
+|   |-- lsb
+|   |   |-- rsync.spec
+|   |   `-- rsync.xinetd
+|   |-- nightly-rsync
+|   |-- patch-update
+|   |-- release-rsync
+|   |-- solaris
+|   |   `-- build_pkg.sh
+|   `-- var-checker
+|-- params.c
+|-- pipe.c
+|-- popt
+|   |-- CHANGES
+|   |-- COPYING
+|   |-- README
+|   |-- README.rsync
+|   |-- dummy.in
+|   |-- findme.c
+|   |-- findme.h
+|   |-- popt.c
+|   |-- popt.h
+|   |-- poptconfig.c
+|   |-- popthelp.c
+|   |-- poptint.h
+|   |-- poptparse.c
+|   `-- system.h
+|-- prepare-source
+|-- prepare-source.mak
+|-- progress.c
+|-- receiver.c
+|-- rounding.c
+|-- rsync.c
+|-- rsync.h
+|-- rsync.yo
+|-- rsync3.txt
+|-- rsyncd.conf.yo
+|-- rsyncsh.txt
+|-- runtests.sh
+|-- sender.c
+|-- shconfig.in
+|-- socket.c
+|-- support
+|   |-- Makefile
+|   |-- atomic-rsync
+|   |-- cvs2includes
+|   |-- deny-rsync
+|   |-- file-attr-restore
+|   |-- files-to-excludes
+|   |-- git-set-file-times
+|   |-- instant-rsyncd
+|   |-- logfilter
+|   |-- lsh
+|   |-- mapfrom
+|   |-- mapto
+|   |-- mnt-excl
+|   |-- munge-symlinks
+|   |-- rrsync
+|   |-- rsyncstats
+|   `-- savetransfer.c
+|-- syscall.c
+|-- t_stub.c
+|-- t_unsafe.c
+|-- tech_report.tex
+|-- testhelp
+|   `-- maketree.py
+|-- testrun.c
+|-- testsuite
+|   |-- 00-hello.test
+|   |-- README.testsuite
+|   |-- acls.test
+|   |-- backup.test
+|   |-- batch-mode.test
+|   |-- chgrp.test
+|   |-- chmod-option.test
+|   |-- chmod-temp-dir.test
+|   |-- chmod.test
+|   |-- chown.test
+|   |-- compare-dest.test
+|   |-- daemon-gzip-download.test
+|   |-- daemon-gzip-upload.test
+|   |-- daemon.test
+|   |-- default-acls.test
+|   |-- delete.test
+|   |-- devices.test
+|   |-- dir-sgid.test
+|   |-- duplicates.test
+|   |-- exclude.test
+|   |-- executability.test
+|   |-- files-from.test
+|   |-- fuzzy.test
+|   |-- hands.test
+|   |-- hardlinks.test
+|   |-- itemize.test
+|   |-- longdir.test
+|   |-- merge.test
+|   |-- missing.test
+|   |-- relative.test
+|   |-- rsync.fns
+|   |-- ssh-basic.test
+|   |-- symlink-ignore.test
+|   |-- trimslash.test
+|   |-- unsafe-byname.test
+|   |-- unsafe-links.test
+|   |-- wildmatch.test
+|   `-- xattrs.test
+|-- tls.c
+|-- token.c
+|-- trimslash.c
+|-- tweak_manpage
+|-- uidlist.c
+|-- util.c
+|-- wildtest.c
+|-- wildtest.txt
+|-- xattrs.c
+`-- zlib
+    |-- ChangeLog
+    |-- README
+    |-- README.rsync
+    |-- adler32.c
+    |-- compress.c
+    |-- crc32.c
+    |-- crc32.h
+    |-- deflate.c
+    |-- deflate.h
+    |-- dummy.in
+    |-- inffast.c
+    |-- inffast.h
+    |-- inffixed.h
+    |-- inflate.c
+    |-- inflate.h
+    |-- inftrees.c
+    |-- inftrees.h
+    |-- trees.c
+    |-- trees.h
+    |-- zconf.h
+    |-- zlib.h
+    |-- zutil.c
+    `-- zutil.h
+
+11 directories, 209 files

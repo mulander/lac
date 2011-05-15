@@ -2,6 +2,7 @@
 - Getting the code ([[http://rsync.samba.org/download.html][full description from the homepage]])
   - Git
     - git clone git://git.samba.org/rsync.git
+** [[file:tree.txt][Code tree]]
 ** Compile & Install
 *** `./configure'
    - Note taken on [2011-05-15 N 15:18] \\
