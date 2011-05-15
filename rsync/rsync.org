@@ -23,6 +23,8 @@
       Specific patched version bundled with the code base.
       Building with a generic zlib will probably result in problems with rsync.
       Registered in the TODO file as a task 'Use generic zlib'.
+** Problems & Patches
+- [[http://lists.samba.org/archive/rsync/2011-May/026324.html][Compilation problem with linux/falloc.h include in rsync.h]] ([[http://lists.samba.org/archive/rsync/2011-May/026325.html][patch]])
 * Misc
 - Probably several modes of operation
   - Daemon (TCP 873)
