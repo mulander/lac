@@ -17,6 +17,11 @@
     - Note taken on [2011-05-15 N 15:32] \\
       A recent copy is included in the rsync code base and used if the system doesn't have it installed.
       Using the bundled lib is possible by passing the --with-included-popt option passed to `./configure'.
+*** zlib compression library
+    - Note taken on [2011-05-15 N 15:46] \\
+      Specific patched version bundled with the code base.
+      Building with a generic zlib will probably result in problems with rsync.
+      Registered in the TODO file as a task 'Use generic zlib'.
 * Misc
 - Probably several modes of operation
   - Daemon (TCP 873)
