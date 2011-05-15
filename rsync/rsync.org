@@ -2,6 +2,16 @@
 - Getting the code ([[http://rsync.samba.org/download.html][full description from the homepage]])
   - Git
     - git clone git://git.samba.org/rsync.git
+** Compile & Install
+*** `./configure'
+   - Note taken on [2011-05-15 N 15:18] \\
+     Note that on some systems you will have to force configure not to use
+     gcc because gcc may not support some features (such as 64 bit file
+     offsets) that your system may support.  Set the environment variable CC
+     to the name of your native compiler before running configure in this
+     case.
+*** `make'
+*** copy rsync to system $PATH or `make install'
 * Misc
 - Probably several modes of operation
   - Daemon (TCP 873)
