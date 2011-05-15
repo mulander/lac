@@ -1,3 +1,7 @@
+* Code
+- Getting the code ([[http://rsync.samba.org/download.html][full description from the homepage]])
+  - Git
+    - git clone git://git.samba.org/rsync.git
 * Misc
 - Probably several modes of operation
   - Daemon (TCP 873)
