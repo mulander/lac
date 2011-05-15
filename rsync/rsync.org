@@ -26,6 +26,7 @@
 - Can update whole directory trees and filesystems
 - Optionally preserves symbolic links, hard links, file ownership, permissions, devices and times
 requires no special privileges to install
+- Does not require setuid
 - Internal pipelining reduces latency for multiple files
 - Can use rsh, ssh or direct sockets as the transport
 - Supports anonymous rsync which is ideal for mirroring
